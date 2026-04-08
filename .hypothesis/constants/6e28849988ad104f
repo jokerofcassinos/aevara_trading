@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\portfolio\portfolio_optimizer.py
+# hypothesis_version: 6.151.11
+
+[0.0, 0.001, 0.002, 0.005, 0.05, 0.5, 1.5, 2.0, 'L-BFGS-B', 'maxiter']

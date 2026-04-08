@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\integration\state_reconciler.py
+# hypothesis_version: 6.151.11
+
+[0.001, 1000000000.0, 100, 'AUDIT', 'Consistent', 'execution_mode', 'live', 'market_ts_ns', 'qroe_phase', 'reconcile_ts', 'risk_regime', 'trace_ids']

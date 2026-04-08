@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\live\telemetry_stream.py
+# hypothesis_version: 6.151.11
+
+[0.001, 5000, '_pusher_task', 'buffer_size', 'is_degraded', 'is_running', 'timestamp']

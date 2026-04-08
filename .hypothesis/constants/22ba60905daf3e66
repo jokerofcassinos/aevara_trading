@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\live\pilot_controller.py
+# hypothesis_version: 6.151.11
+
+[0.0, 100, 'ACTIVE', 'DECREASE', 'HALT', 'HALTED', 'INCREASE', 'KILLSWITCH', 'PILOT_INIT', 'SCALING', 'allocation_pct', 'equity', 'is_active', 'max_drawdown', 'sharpe', 'stream_health', 'trades_count']

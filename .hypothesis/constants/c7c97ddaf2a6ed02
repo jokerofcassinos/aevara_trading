@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\execution\live_gateway.py
+# hypothesis_version: 6.151.11
+
+[0.0, 0.001, 0.005, 30.0, 300.0, 42000.0, 1000000000.0, 1000, 10000, 'CLOSED', 'Circuit breaker OPEN', 'DRY_RUN_FILLED', 'Exchange timeout', 'FILLED', 'HALF_OPEN', 'LIVE_SUBMITTED', 'OPEN', 'PENDING', 'REJECTED', 'average', 'clientOrderId', 'cost', 'dry-run', 'exchange_id', 'fee', 'filled', 'id', 'killswitch_active', 'live', 'mode', 'price', 'reason', 'shadow', 'size', 'status', 'total_exposure_qty']

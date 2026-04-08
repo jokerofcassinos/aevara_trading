@@ -1,0 +1,51 @@
+# @module: aevara.config.assets
+# @deps: None
+# @status: IMPLEMENTED
+# @last_update: 2026-04-10
+# @summary: Global Asset Registry and Configuration for Multi-Asset Portfolio. BTC, ETH, and SOL defined.
+
+assets:
+  BTCUSDT:
+    base_currency: BTC
+    quote_currency: USDT
+    tick_size: 0.01
+    lot_size: 1.0
+    min_order_size: 0.01
+    max_order_size: 10.0
+    session_profile:
+      0_8: 1.0     # Asia
+      8_16: 1.5    # EU
+      16_24: 2.0   # US
+    funding_normalization_factor: 1.0
+    tce_budget_bps: 2.0
+    liquidity_score_threshold: 0.8
+  
+  ETHUSDT:
+    base_currency: ETH
+    quote_currency: USDT
+    tick_size: 0.01
+    lot_size: 1.0
+    min_order_size: 0.1
+    max_order_size: 100.0
+    session_profile:
+      0_8: 0.9
+      8_16: 1.4
+      16_24: 1.8
+    funding_normalization_factor: 1.2
+    tce_budget_bps: 2.5
+    liquidity_score_threshold: 0.75
+
+  SOLUSDT:
+    base_currency: SOL
+    quote_currency: USDT
+    tick_size: 0.001
+    lot_size: 1.0
+    min_order_size: 1.0
+    max_order_size: 1000.0
+    session_profile:
+      0_8: 0.8
+      8_16: 1.2
+      16_24: 1.5
+    funding_normalization_factor: 1.5
+    tce_budget_bps: 3.5
+    liquidity_score_threshold: 0.7

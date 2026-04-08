@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\live\adaptive_scaling_engine.py
+# hypothesis_version: 6.151.11
+
+[0.0, 0.001, 0.01, 0.08, 0.1, 1.0, 'cb_f', 'dd_f', 'kelly_full', 'liqd_f', 'tier_m', 'vol_f']

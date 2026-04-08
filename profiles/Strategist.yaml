@@ -1,0 +1,32 @@
+# @module: STRATEGIST_PROFILE
+# @deps: None
+# @status: ACTIVE
+# @last_update: 2026-04-06
+# @summary: Perfil do Strategist - Pensamento critico, questionamento e alternativas
+
+role_id: Strategist
+domain: Critical Thinking & Alternative Proposals
+expertise: [pre_mortem_analysis, risk_matrix, alternative_pathfinding, chestertons_fence]
+input_contract:
+  required_files: [PROJECT_STATE.yaml, TASK_QUEUE.md, current_task_context]
+  max_context: 3
+  validation: relevance_check
+output_contract:
+  deliverables: [risk_matrix.md, alternative_paths.md, pre_mortem.md]
+  format: markdown
+context_budget: 3
+activation_triggers:
+  - parallel_all_phases
+  - risk_assessment_requested
+  - strategic_pivot_needed
+decay_sensors:
+  - suggestion_acceptance_rate < 0.1
+  - risk_false_alarm_rate > 0.2
+fallback_chain:
+  - Director (if operational priority needed)
+  - Human_Escalation (if strategic deadlock)
+metrics:
+  suggestion_acceptance_rate: 0.40
+  risk_prediction_accuracy: 0.85
+  value_add_score: 0.70
+version: v1.0

@@ -1,0 +1,32 @@
+# @module: AUDITOR_PROFILE
+# @deps: None
+# @status: ACTIVE
+# @last_update: 2026-04-06
+# @summary: Perfil do Auditor - Coerencia de estado, drift detection e KG consistency
+
+role_id: Auditor
+domain: State Coherence & Anti-Drift
+expertise: [state_validation, drift_detection, kg_consistency, anti_duplication]
+input_contract:
+  required_files: [code.py, test_report.json, PROJECT_STATE.yaml, KNOWLEDGE_GRAPH.md]
+  max_context: 4
+  validation: state_integrity
+output_contract:
+  deliverables: [state_patch.yaml, drift_report.md, kg_update.yaml]
+  format: yaml + markdown
+context_budget: 4
+activation_triggers:
+  - tests_passed
+  - pre_integration_check
+  - state_reconciliation_needed
+decay_sensors:
+  - missed_drift_detection
+  - duplicate_acceptance_rate > 0.05
+fallback_chain:
+  - Director (if state reconciliation needed)
+  - Strategist (if architectural drift suspected)
+metrics:
+  drift_detection_rate: 0.99
+  state_consistency: 1.0
+  false_drift_alerts: 0
+version: v1.0

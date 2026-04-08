@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\telemetry\logger.py
+# hypothesis_version: 6.151.11
+
+[0.1, 10000, 'CRITICAL', 'ERROR', 'FATAL', 'INFO', 'WARNING', 'a', 'component', 'context', 'data/audit', 'event_type', 'level', 'message', 'metrics', 'span_id', 'telemetry.jsonl', 'timestamp_ns', 'trace_id', 'utf-8']

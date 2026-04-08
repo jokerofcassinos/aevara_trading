@@ -1,0 +1,989 @@
+{
+  "aevara.src.main": {
+    "path": "aevara/src/main.py",
+    "declared_status": "TRANSITION",
+    "real_status": "TRANSITION",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.854737"
+  },
+  "aevara.src.adversarial.robustness": {
+    "path": "aevara/src/adversarial/robustness.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.855370"
+  },
+  "aevara.src.agents.base": {
+    "path": "aevara/src/agents/base.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.855758"
+  },
+  "aevara.src.agents.pilot_alpha": {
+    "path": "aevara/src/agents/pilot_alpha.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.856018"
+  },
+  "aevara.src.cognitive.substrate": {
+    "path": "aevara/src/cognitive/substrate.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.856472"
+  },
+  "aevara.src.commission.aware_optimizer": {
+    "path": "aevara/src/commission/aware_optimizer.py",
+    "declared_status": "PROVISIONED_CONTRACT",
+    "real_status": "SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.856792"
+  },
+  "aevara.src.confidence.progressive_scaling": {
+    "path": "aevara/src/confidence/progressive_scaling.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.857179"
+  },
+  "aevara.src.core.invariants": {
+    "path": "aevara/src/core/invariants.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.857459"
+  },
+  "aevara.src.cross_exchange.intelligence": {
+    "path": "aevara/src/cross_exchange/intelligence.py",
+    "declared_status": "PROVISIONED_SKELETON",
+    "real_status": "SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.857715"
+  },
+  "aevara.src.deployment.activation_orchestrator": {
+    "path": "aevara/src/deployment/activation_orchestrator.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.858074"
+  },
+  "aevara.src.deployment.ftmo_manager": {
+    "path": "aevara/src/deployment/ftmo_manager.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.858251"
+  },
+  "aevara.src.deployment.live_connector": {
+    "path": "aevara/src/deployment/live_connector.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.858430"
+  },
+  "aevara.src.deployment.pilot_controller": {
+    "path": "aevara/src/deployment/pilot_controller.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.858606"
+  },
+  "aevara.src.deployment.telemetry_activation_feed": {
+    "path": "aevara/src/deployment/telemetry_activation_feed.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.858776"
+  },
+  "aevara.src.dna.engine": {
+    "path": "aevara/src/dna/engine.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.859028"
+  },
+  "aevara.src.dna.promotion_gate": {
+    "path": "aevara/src/dna/promotion_gate.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.859213"
+  },
+  "aevara.src.dna.shadow_weights": {
+    "path": "aevara/src/dna/shadow_weights.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.859412"
+  },
+  "aevara.src.execution.advanced_logic": {
+    "path": "aevara/src/execution/advanced_logic.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.859723"
+  },
+  "aevara.src.execution.algorithms": {
+    "path": "aevara/src/execution/algorithms.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.859960"
+  },
+  "aevara.src.execution.contracts": {
+    "path": "aevara/src/execution/contracts.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.860198"
+  },
+  "aevara.src.execution.emergency_killswitch": {
+    "path": "aevara/src/execution/emergency_killswitch.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.860405"
+  },
+  "aevara.src.execution.lifecycle": {
+    "path": "aevara/src/execution/lifecycle.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.860602"
+  },
+  "aevara.src.execution.live_gateway": {
+    "path": "aevara/src/execution/live_gateway.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.860908"
+  },
+  "aevara.src.execution.live_reconciler": {
+    "path": "aevara/src/execution/live_reconciler.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.861175"
+  },
+  "aevara.src.execution.mt5_adapter": {
+    "path": "aevara/src/execution/mt5_adapter.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.861440"
+  },
+  "aevara.src.execution.reconciler": {
+    "path": "aevara/src/execution/reconciler.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.861770"
+  },
+  "aevara.src.execution.risk_gates_live": {
+    "path": "aevara/src/execution/risk_gates_live.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.862083"
+  },
+  "aevara.src.execution.sor": {
+    "path": "aevara/src/execution/sor.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.862382"
+  },
+  "aevara.src.frontier.ergodicity": {
+    "path": "aevara/src/frontier/ergodicity.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.862790"
+  },
+  "aevara.src.infra.bridge_provisioner": {
+    "path": "aevara/src/infra/bridge_provisioner.py",
+    "declared_status": "TEMPORARY_SKELETON_GENERATOR",
+    "real_status": "SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.863205"
+  },
+  "aevara.src.infra.hardening": {
+    "path": "aevara/src/infra/hardening.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.863463"
+  },
+  "aevara.src.innovation.proprietary": {
+    "path": "aevara/src/innovation/proprietary.py",
+    "declared_status": "PROVISIONED_SKELETON",
+    "real_status": "SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.863849"
+  },
+  "aevara.src.integration.contracts": {
+    "path": "aevara/src/integration/contracts.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.864271"
+  },
+  "aevara.src.integration.e2e_orchestrator": {
+    "path": "aevara/src/integration/e2e_orchestrator.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.864567"
+  },
+  "aevara.src.integration.latency_profiler": {
+    "path": "aevara/src/integration/latency_profiler.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.864842"
+  },
+  "aevara.src.integration.shadow_sync": {
+    "path": "aevara/src/integration/shadow_sync.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.865114"
+  },
+  "aevara.src.integration.state_reconciler": {
+    "path": "aevara/src/integration/state_reconciler.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.865383"
+  },
+  "aevara.src.interfaces.alert_engine": {
+    "path": "aevara/src/interfaces/alert_engine.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.865780"
+  },
+  "aevara.src.interfaces.alert_router": {
+    "path": "aevara/src/interfaces/alert_router.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.866061"
+  },
+  "aevara.src.interfaces.ceo_dashboard": {
+    "path": "aevara/src/interfaces/ceo_dashboard.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.866335"
+  },
+  "aevara.src.interfaces.dashboard": {
+    "path": "aevara/src/interfaces/dashboard.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.866654"
+  },
+  "aevara.src.interfaces.dashboard_feed": {
+    "path": "aevara/src/interfaces/dashboard_feed.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.866937"
+  },
+  "aevara.src.interfaces.ocl_parser": {
+    "path": "aevara/src/interfaces/ocl_parser.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.867228"
+  },
+  "aevara.src.interfaces.telegram_bot": {
+    "path": "aevara/src/interfaces/telegram_bot.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.867505"
+  },
+  "aevara.src.interfaces.telegram_bridge": {
+    "path": "aevara/src/interfaces/telegram_bridge.py",
+    "declared_status": "ENHANCED_",
+    "real_status": "ENHANCED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.867830"
+  },
+  "aevara.src.live.adaptive_scaling_engine": {
+    "path": "aevara/src/live/adaptive_scaling_engine.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.868271"
+  },
+  "aevara.src.live.capital_allocator": {
+    "path": "aevara/src/live/capital_allocator.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.868553"
+  },
+  "aevara.src.live.dynamic_circuit_breakers": {
+    "path": "aevara/src/live/dynamic_circuit_breakers.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.868807"
+  },
+  "aevara.src.live.failover_manager": {
+    "path": "aevara/src/live/failover_manager.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.869188"
+  },
+  "aevara.src.live.ftmo_guard": {
+    "path": "aevara/src/live/ftmo_guard.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.869473"
+  },
+  "aevara.src.live.live_edge_monitor": {
+    "path": "aevara/src/live/live_edge_monitor.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.869743"
+  },
+  "aevara.src.live.live_performance_profiler": {
+    "path": "aevara/src/live/live_performance_profiler.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.870019"
+  },
+  "aevara.src.live.pilot_controller": {
+    "path": "aevara/src/live/pilot_controller.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.870323"
+  },
+  "aevara.src.live.telemetry_stream": {
+    "path": "aevara/src/live/telemetry_stream.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.870593"
+  },
+  "aevara.src.memory.checkpoint_serializer": {
+    "path": "aevara/src/memory/checkpoint_serializer.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.870967"
+  },
+  "aevara.src.memory.context_library": {
+    "path": "aevara/src/memory/context_library.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.871284"
+  },
+  "aevara.src.memory.knowledge_graph": {
+    "path": "aevara/src/memory/knowledge_graph.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.871508"
+  },
+  "aevara.src.meta.bayesian_calibrator": {
+    "path": "aevara/src/meta/bayesian_calibrator.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.871831"
+  },
+  "aevara.src.meta.kg_refinement_proposer": {
+    "path": "aevara/src/meta/kg_refinement_proposer.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.872103"
+  },
+  "aevara.src.meta.learning_engine": {
+    "path": "aevara/src/meta/learning_engine.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.872325"
+  },
+  "aevara.src.meta.post_trade_analyzer": {
+    "path": "aevara/src/meta/post_trade_analyzer.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.872533"
+  },
+  "aevara.src.meta.regime_adaptive_thresholds": {
+    "path": "aevara/src/meta/regime_adaptive_thresholds.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.872732"
+  },
+  "aevara.src.meta.self_diagnosis_engine": {
+    "path": "aevara/src/meta/self_diagnosis_engine.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.872925"
+  },
+  "aevara.src.multi_agent.rl": {
+    "path": "aevara/src/multi_agent/rl.py",
+    "declared_status": "PROVISIONED_SKELETON",
+    "real_status": "SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.873189"
+  },
+  "aevara.src.multi_timeframe.analysis": {
+    "path": "aevara/src/multi_timeframe/analysis.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.873464"
+  },
+  "aevara.src.opportunity.cost_engine": {
+    "path": "aevara/src/opportunity/cost_engine.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.873851"
+  },
+  "aevara.src.orchestration.stec": {
+    "path": "aevara/src/orchestration/stec.py",
+    "declared_status": "PROVISIONED_SKELETON",
+    "real_status": "SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.874274"
+  },
+  "aevara.src.orchestrator.cycle_executor": {
+    "path": "aevara/src/orchestrator/cycle_executor.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.874618"
+  },
+  "aevara.src.orchestrator.message_bus": {
+    "path": "aevara/src/orchestrator/message_bus.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.874818"
+  },
+  "aevara.src.orchestrator.profile_router": {
+    "path": "aevara/src/orchestrator/profile_router.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.875070"
+  },
+  "aevara.src.orchestrator.qroe_engine": {
+    "path": "aevara/src/orchestrator/qroe_engine.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.875343"
+  },
+  "aevara.src.paper_trading.engine": {
+    "path": "aevara/src/paper_trading/engine.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.875720"
+  },
+  "aevara.src.paper_trading.exchange_adapter": {
+    "path": "aevara/src/paper_trading/exchange_adapter.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.875920"
+  },
+  "aevara.src.paper_trading.integration": {
+    "path": "aevara/src/paper_trading/integration.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.876116"
+  },
+  "aevara.src.paper_trading.pnl_calculator": {
+    "path": "aevara/src/paper_trading/pnl_calculator.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.876399"
+  },
+  "aevara.src.paper_trading.state_manager": {
+    "path": "aevara/src/paper_trading/state_manager.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.876599"
+  },
+  "aevara.src.paper_trading.validation_loop": {
+    "path": "aevara/src/paper_trading/validation_loop.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.876798"
+  },
+  "aevara.src.perception.regime_detector": {
+    "path": "aevara/src/perception/regime_detector.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.877093"
+  },
+  "aevara.src.phantom.alignment_tracker": {
+    "path": "aevara/src/phantom/alignment_tracker.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.877406"
+  },
+  "aevara.src.phantom.engine": {
+    "path": "aevara/src/phantom/engine.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.877630"
+  },
+  "aevara.src.phantom.execution_simulator": {
+    "path": "aevara/src/phantom/execution_simulator.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.877837"
+  },
+  "aevara.src.phantom.scenario_generator": {
+    "path": "aevara/src/phantom/scenario_generator.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.878043"
+  },
+  "aevara.src.portfolio.asset_specific_features": {
+    "path": "aevara/src/portfolio/asset_specific_features.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.878335"
+  },
+  "aevara.src.portfolio.async_rebalancer": {
+    "path": "aevara/src/portfolio/async_rebalancer.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.878541"
+  },
+  "aevara.src.portfolio.constraint_enforcer": {
+    "path": "aevara/src/portfolio/constraint_enforcer.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.878728"
+  },
+  "aevara.src.portfolio.cross_asset_correlator": {
+    "path": "aevara/src/portfolio/cross_asset_correlator.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.878916"
+  },
+  "aevara.src.portfolio.cross_asset_engine": {
+    "path": "aevara/src/portfolio/cross_asset_engine.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.879104"
+  },
+  "aevara.src.portfolio.ftmo_multi_asset_guard": {
+    "path": "aevara/src/portfolio/ftmo_multi_asset_guard.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.879286"
+  },
+  "aevara.src.portfolio.multi_asset_router": {
+    "path": "aevara/src/portfolio/multi_asset_router.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.879497"
+  },
+  "aevara.src.portfolio.multi_strategy_allocator": {
+    "path": "aevara/src/portfolio/multi_strategy_allocator.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.879721"
+  },
+  "aevara.src.portfolio.portfolio_optimizer": {
+    "path": "aevara/src/portfolio/portfolio_optimizer.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.879915"
+  },
+  "aevara.src.portfolio.portfolio_risk_guard": {
+    "path": "aevara/src/portfolio/portfolio_risk_guard.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.880103"
+  },
+  "aevara.src.portfolio.sizing_telemetry": {
+    "path": "aevara/src/portfolio/sizing_telemetry.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.880282"
+  },
+  "aevara.src.portfolio.stochastic_sizer": {
+    "path": "aevara/src/portfolio/stochastic_sizer.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.880465"
+  },
+  "aevara.src.protocols.oce_te": {
+    "path": "aevara/src/protocols/oce_te.py",
+    "declared_status": "PROVISIONED_SKELETON",
+    "real_status": "SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.880715"
+  },
+  "aevara.src.protocols.three_six_nine": {
+    "path": "aevara/src/protocols/three_six_nine.py",
+    "declared_status": "PROVISIONED_SKELETON",
+    "real_status": "SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.880916"
+  },
+  "aevara.src.psychology.modeling": {
+    "path": "aevara/src/psychology/modeling.py",
+    "declared_status": "PROVISIONED_SKELETON",
+    "real_status": "SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.881167"
+  },
+  "aevara.src.reasoning.synthesis": {
+    "path": "aevara/src/reasoning/synthesis.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.881456"
+  },
+  "aevara.src.risk.exposure_tracker": {
+    "path": "aevara/src/risk/exposure_tracker.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.881746"
+  },
+  "aevara.src.risk.gates": {
+    "path": "aevara/src/risk/gates.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.881936"
+  },
+  "aevara.src.risk.position_sizing": {
+    "path": "aevara/src/risk/position_sizing.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.882125"
+  },
+  "aevara.src.risk.quantum_gates": {
+    "path": "aevara/src/risk/quantum_gates.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.882299"
+  },
+  "aevara.src.risk.risk_engine": {
+    "path": "aevara/src/risk/risk_engine.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.882493"
+  },
+  "aevara.src.risk.sizing": {
+    "path": "aevara/src/risk/sizing.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.882664"
+  },
+  "aevara.src.simulation.scenarios": {
+    "path": "aevara/src/simulation/scenarios.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.882924"
+  },
+  "aevara.src.strategy.ensemble_voter": {
+    "path": "aevara/src/strategy/ensemble_voter.py",
+    "declared_status": "IMPLEMENTED_STRATEGIC_",
+    "real_status": "IMPLEMENTED_STRATEGIC_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.883176"
+  },
+  "aevara.src.strategy.parameter_sweeper": {
+    "path": "aevara/src/strategy/parameter_sweeper.py",
+    "declared_status": "IMPLEMENTED_STRATEGIC_",
+    "real_status": "IMPLEMENTED_STRATEGIC_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.883358"
+  },
+  "aevara.src.strategy.performance_analyzer": {
+    "path": "aevara/src/strategy/performance_analyzer.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.883535"
+  },
+  "aevara.src.strategy.refinement_engine": {
+    "path": "aevara/src/strategy/refinement_engine.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.883718"
+  },
+  "aevara.src.strategy.regime_adapter": {
+    "path": "aevara/src/strategy/regime_adapter.py",
+    "declared_status": "IMPLEMENTED_STRATEGIC_",
+    "real_status": "IMPLEMENTED_STRATEGIC_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.883905"
+  },
+  "aevara.src.stress.adversarial_engine": {
+    "path": "aevara/src/stress/adversarial_engine.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.884176"
+  },
+  "aevara.src.stress.alpha_validator": {
+    "path": "aevara/src/stress/alpha_validator.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.884359"
+  },
+  "aevara.src.stress.monte_carlo_simulator": {
+    "path": "aevara/src/stress/monte_carlo_simulator.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.884532"
+  },
+  "aevara.src.stress.performance_profiler": {
+    "path": "aevara/src/stress/performance_profiler.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.884713"
+  },
+  "aevara.src.telemetry.alert_router": {
+    "path": "aevara/src/telemetry/alert_router.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.884988"
+  },
+  "aevara.src.telemetry.brier_calibrator": {
+    "path": "aevara/src/telemetry/brier_calibrator.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.885159"
+  },
+  "aevara.src.telemetry.ftmo_dashboard": {
+    "path": "aevara/src/telemetry/ftmo_dashboard.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.885351"
+  },
+  "aevara.src.telemetry.logger": {
+    "path": "aevara/src/telemetry/logger.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.885531"
+  },
+  "aevara.src.telemetry.metrics": {
+    "path": "aevara/src/telemetry/metrics.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.885715"
+  },
+  "aevara.src.telemetry.structured_logger": {
+    "path": "aevara/src/telemetry/structured_logger.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.885895"
+  },
+  "aevara.src.utils.logging": {
+    "path": "aevara/src/utils/logging.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.886155"
+  },
+  "aevara.src.utils.math": {
+    "path": "aevara/src/utils/math.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.886321"
+  },
+  "aevara.src.validation.adversarial_injector": {
+    "path": "aevara/src/validation/adversarial_injector.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.886597"
+  },
+  "aevara.src.validation.cpcv_pipeline": {
+    "path": "aevara/src/validation/cpcv_pipeline.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.886785"
+  },
+  "aevara.src.validation.deflated_sharpe": {
+    "path": "aevara/src/validation/deflated_sharpe.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.886968"
+  },
+  "aevara.src.validation.reporter": {
+    "path": "aevara/src/validation/reporter.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.887150"
+  },
+  "aevara.src.validation.walk_forward": {
+    "path": "aevara/src/validation/walk_forward.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.887344"
+  },
+  "aevara.src.verification.invariants": {
+    "path": "aevara/src/verification/invariants.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.887604"
+  },
+  "aevara.src.infra.execution.idempotent_engine": {
+    "path": "aevara/src/infra/execution/idempotent_engine.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.892575"
+  },
+  "aevara.src.infra.network.rate_limiter": {
+    "path": "aevara/src/infra/network/rate_limiter.py",
+    "declared_status": "IMPLEMENTED_",
+    "real_status": "IMPLEMENTED_",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.892866"
+  },
+  "aevara.src.infra.resilience.circuit_breaker": {
+    "path": "aevara/src/infra/resilience/circuit_breaker.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.893142"
+  },
+  "aevara.src.infra.security.credential_vault": {
+    "path": "aevara/src/infra/security/credential_vault.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.893409"
+  },
+  "aevara.src.infra.stress.market_adversary": {
+    "path": "aevara/src/infra/stress/market_adversary.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.893688"
+  },
+  "aevara.src.data.features.normalizers": {
+    "path": "aevara/src/data/features/normalizers.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.895622"
+  },
+  "aevara.src.data.ingestion.ring_buffer": {
+    "path": "aevara/src/data/ingestion/ring_buffer.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.895877"
+  },
+  "aevara.src.data.ingestion.timestamp_sync": {
+    "path": "aevara/src/data/ingestion/timestamp_sync.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.896056"
+  },
+  "aevara.src.data.schemas.market_tick": {
+    "path": "aevara/src/data/schemas/market_tick.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.896309"
+  },
+  "aevara.src.core.coherence.logodds_fusion": {
+    "path": "aevara/src/core/coherence/logodds_fusion.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.896955"
+  },
+  "aevara.src.core.dna.promotion_gate": {
+    "path": "aevara/src/core/dna/promotion_gate.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.897233"
+  },
+  "aevara.src.core.dna.shadow_weights": {
+    "path": "aevara/src/core/dna/shadow_weights.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "DETACHED_SKELETON",
+    "has_doc_placeholder": true,
+    "last_checked": "2026-04-07T22:26:53.897412"
+  },
+  "aevara.src.agents.regime.detector": {
+    "path": "aevara/src/agents/regime/detector.py",
+    "declared_status": "IMPLEMENTED",
+    "real_status": "IMPLEMENTED",
+    "has_doc_placeholder": false,
+    "last_checked": "2026-04-07T22:26:53.898518"
+  }
+}

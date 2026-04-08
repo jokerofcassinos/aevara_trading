@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\execution\risk_gates_live.py
+# hypothesis_version: 6.151.11
+
+[0.0, 0.05, 0.85, 4.8, 8.0, 10.0, 42000.0, 100000.0, 'Killswitch active', 'correlation_index', 'correlation_spread', 'current_volatility', 'daily_pnl_pct', 'ftmo_daily_loss', 'ftmo_total_loss', 'killswitch_active', 'margin_available', 'max_correlation', 'max_exposure_qty', 'name', 'passed', 'total_drawdown_pct', 'total_exposure', 'total_exposure_qty', 'volatility_cap']

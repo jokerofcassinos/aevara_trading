@@ -1,0 +1,84 @@
+# AEvara Institutional .gitignore
+# Generated: 2026-04-06 | CCD-v2.0 Compliant
+# Purpose: Zero exposure of secrets, zero noise, zero data leakage.
+
+# ==========================================
+# SECURITY — NEVER COMMIT THESE
+# ==========================================
+.env
+.env.*
+.env.local
+.env.production
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+*.cred
+*.token
+
+# ==========================================
+# VIRTUAL ENVS & DEPS
+# ==========================================
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+__pycache__/
+*.pyc
+*.pyo
+
+# ==========================================
+# DATA — NEVER COMMIT RAW/PROCESSED
+# ==========================================
+data/raw/
+data/processed/
+data/cache/
+data/*.csv
+data/*.parquet
+data/*.feather
+*.h5
+*.hdf5
+
+# ==========================================
+# AUDIT & LOGS
+# ==========================================
+data/audit/
+*.log
+*.log.*
+telemetry.jsonl
+
+# ==========================================
+# IDE & EDITORS
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# PYTHON TOOLS
+# ==========================================
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# ==========================================
+# CLAUDE CODE — INTERNAL
+# ==========================================
+.claude/
+*.jsonl
+
+# ==========================================
+# GIT INTERNAL
+# ==========================================
+.git/

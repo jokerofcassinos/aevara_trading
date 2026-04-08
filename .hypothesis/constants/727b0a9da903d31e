@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\integration\shadow_sync.py
+# hypothesis_version: 6.151.11
+
+[0.0, 0.005, 5.0, 100, 1000, 5000, 'DRIFTING', 'LOCKED', 'avg_drift', 'drift_pct', 'live_rr', 'match', 'max_drift', 'paper_rr', 'rr', 'rr_drift', 'slippage_bps', 'slippage_error_bps', 'sync_status']

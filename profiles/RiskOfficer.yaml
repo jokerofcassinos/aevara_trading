@@ -1,0 +1,33 @@
+# @module: RISK_OFFICER_PROFILE
+# @deps: None
+# @status: ACTIVE
+# @last_update: 2026-04-06
+# @summary: Perfil do RiskOfficer - Vetos dinamicos, circuit breakers e position caps
+
+role_id: RiskOfficer
+domain: Risk Veto & Circuit Breaking
+expertise: [drawdown_monitoring, veto_logic, position_sizing, circuit_breaker_design]
+input_contract:
+  required_files: [risk_rules.yaml, current_positions.yaml, telemetry_feed]
+  max_context: 3
+  validation: risk_integrity
+output_contract:
+  deliverables: [risk_gate_report.md, position_cap.yaml, veto_flags.yaml]
+  format: yaml + markdown
+context_budget: 3
+activation_triggers:
+  - pre_execution_check
+  - validation_phase
+  - anomaly_detected
+decay_sensors:
+  - veto_false_positive_rate > 0.1
+  - missed_veto_detected
+  - context_overuse_2_cycles
+fallback_chain:
+  - Director (if veto override needed)
+  - Human_Escalation (if circuit breaker triggered)
+metrics:
+  veto_accuracy: 0.95
+  false_positive_rate: 0.02
+  dd_violation_rate: 0.0
+version: v1.0

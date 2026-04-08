@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\portfolio\cross_asset_engine.py
+# hypothesis_version: 6.151.11
+
+[0.0, 0.25, 0.8, 0.9, 250.0, 100, 500, 5000, 10000, 3600000, 'A->B', 'B->A', 'correlation_max', 'direction', 'full', 'lag_indices']

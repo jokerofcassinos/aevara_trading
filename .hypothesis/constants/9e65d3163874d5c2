@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\scripts\health_probe.py
+# hypothesis_version: 6.151.11
+
+[0.015, 0.05, 0.5, 15.0, 30.0, 1250, 45000, 'DEGRADED', 'HEALTHY', 'TBD', 'Timeout during probe', 'UNHEALTHY']

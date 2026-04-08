@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\telemetry\alert_router.py
+# hypothesis_version: 6.151.11
+
+[300.0, 1000000000.0, 1000, 'CRITICAL', 'FATAL', 'INFO', 'WARNING', 'all', 'inf', 'log', 'none', 'telegram']

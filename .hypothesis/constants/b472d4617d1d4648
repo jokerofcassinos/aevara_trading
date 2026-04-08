@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\infra\resilience\circuit_breaker.py
+# hypothesis_version: 6.151.11
+
+[30.0, 500, 'CLOSED', 'HALF_OPEN', 'OPEN', 'calls', 'consecutive_failures', 'default', 'error', 'failures', 'half_open_calls', 'last_failure_ts', 'state', 'successes', 'ts']

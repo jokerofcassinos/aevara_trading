@@ -1,0 +1,96 @@
+# @module: PROJECT_STATE
+# @deps: AEVRA_DIRECTIVE.md
+# @status: ACTIVE
+# @last_update: 2026-04-06
+# @summary: Fonte unica de verdade do projeto Aevra - modulos, progresso, constraints, DNA generation
+
+metadata:
+  project: AEVRA
+  version: v0.1.0-alpha
+  state_hash: aevra_v010_alpha
+  boot_timestamp: "2026-04-06T00:00:00Z"
+  mode: ACTIVE
+  dna_generation: 0
+
+architecture:
+  ccd_version: "v2.0"
+  qroe_version: "v1.0"
+  stea_version: "v1.0"
+  invariant_count: 7
+  phi_principles: 13
+
+modules:
+  data_sovereign:
+    status: IN_PROGRESS
+    submodules:
+      schemas_market_tick: IMPLEMENTED
+      ring_buffer: IMPLEMENTED
+      timestamp_sync: IMPLEMENTED
+      normalizers: IMPLEMENTED
+    priority: P0
+  core_engine:
+    status: IN_PROGRESS
+    submodules:
+      logodds_fusion: IMPLEMENTED
+      invariants: IMPLEMENTED
+      shadow_weights: IMPLEMENTED
+      promotion_gate: IMPLEMENTED
+    priority: P0
+  risk_engine:
+    status: IN_PROGRESS
+    submodules:
+      gates: IMPLEMENTED
+      sizing: IMPLEMENTED
+    priority: P0
+  agents:
+    status: IN_PROGRESS
+    submodules:
+      base: IMPLEMENTED
+      regime_detector: IMPLEMENTED
+    priority: P0
+  phantom_engine:
+    status: PENDING
+    priority: P0
+  memory_system:
+    status: PENDING
+    priority: P0
+  orchestrator:
+    status: PENDING
+    priority: P0
+  telemetry_matrix:
+    status: PENDING
+    priority: P1
+  zero_trust_ops:
+    status: PENDING
+    priority: P1
+  lifecycle_orchestrator:
+    status: PENDING
+    priority: P2
+  adversarial_forge:
+    status: PENDING
+    priority: P2
+
+qroe_state:
+  current_phase: VALIDATION
+  active_profiles: [Auditor]
+  rotation_cycle: 2
+  last_checkpoint: cp_001_v0.1
+  context_budget_used: 5/5
+  rotation_log:
+    - ts: "2026-04-06T00:00:00Z"
+      phase_entered: EXECUTION
+      reason: T-001 implementation
+    - ts: "2026-04-06T00:30:00Z"
+      phase_entered: VALIDATION
+      reason: Tests passing 23/23
+
+test_state:
+  total: 23
+  passed: 23
+  failed: 0
+  coverage: "core.coherence, agents.regime"
+
+progress:
+  implemented_modules: 10
+  pending_modules: 6
+  completion_pct: 62.5

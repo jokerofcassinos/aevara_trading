@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\interfaces\alert_router.py
+# hypothesis_version: 6.151.11
+
+[300, '%H:%M', 'CRITICAL', 'FATAL', 'INFO', 'WARNING']

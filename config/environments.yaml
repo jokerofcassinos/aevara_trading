@@ -1,0 +1,49 @@
+# @module: config/environments
+# @summary: Dev/Paper/Live matrix: endpoints, rate limits, sizing caps, killswitch thresholds, credential references.
+
+environments:
+  dev:
+    enabled: true
+    gating: strict
+    endpoint: "https://testnet.binance.vision/api"
+    execution_mode: dry-run
+    risk:
+      daily_max_loss_pct: 10.0
+      position_size_cap: 1.0
+    telemetry:
+      dashboard_port: 8099
+    killswitch:
+      drawdown_threshold: 15.0
+
+  paper:
+    enabled: true
+    gating: full
+    endpoint: "https://api.binance.com" # Read-only or paper trading API
+    execution_mode: paper
+    risk:
+      daily_max_loss_pct: 4.8
+      position_size_cap: 0.5
+    telemetry:
+      dashboard_port: 8100
+    killswitch:
+      drawdown_threshold: 4.9
+
+  live:
+    enabled: false # Manual approval required
+    gating: manual_approval
+    endpoint: "https://api.binance.com"
+    execution_mode: live
+    risk:
+      daily_max_loss_pct: 4.8 # FTMO Strict
+      position_size_cap: 0.2
+    telemetry:
+      dashboard_port: 8101
+    killswitch:
+      drawdown_threshold: 4.8
+      global_pause_on_error: true
+
+# Global constraints
+constraints:
+  max_promotions_per_day: 5
+  rollback_window_seconds: 30
+  health_probe_timeout_seconds: 15

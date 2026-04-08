@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/workspace/aevara"],
+      "allowlist": ["docs/", "src/", "audit/", "profiles/"]
+    },
+    "git": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-git", "/workspace/aevara"]
+    },
+    "sqlite": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sqlite", "/workspace/aevara/data/aevara.db"]
+    },
+    "telegram": {
+      "command": "python",
+      "args": ["/workspace/aevara/scripts/mcp_telegram.py"],
+      "env": { "TELEGRAM_BOT_TOKEN": "${env:TELEGRAM_BOT_TOKEN}" }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+# @module: DIRECTOR_PROFILE
+# @deps: None
+# @status: ACTIVE
+# @last_update: 2026-04-06
+# @summary: Perfil do Director - Orquestracao, roteamento de tarefas e priorizacao
+
+role_id: Director
+domain: Orchestration & Task Routing
+expertise: [state_analysis, dependency_resolution, priority_scoring, phase_gating]
+input_contract:
+  required_files: [docs/PROJECT_STATE.yaml, docs/TASK_QUEUE.md, docs/QROE_STATE.yaml]
+  max_context: 3
+  validation: schema_integrity
+output_contract:
+  deliverables: [selected_task_id, next_phase, active_profile, handoff_prompt]
+  format: yaml + markdown
+context_budget: 3
+activation_triggers:
+  - task_queue.not_empty
+  - phase.completed || phase.blocked
+  - state_drift_detected
+decay_sensors:
+  - context_overuse_3_cycles
+  - selection_bias_detected
+  - gate_failure_rate > 0.15
+fallback_chain:
+  - Auditor (if state corrupted)
+  - Strategist (if ambiguous priority)
+metrics:
+  selection_accuracy: 0.92
+  avg_cycle_time_ms: 450
+  context_violations: 0
+version: v1.0

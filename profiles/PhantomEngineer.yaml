@@ -1,0 +1,33 @@
+# @module: PHANTOM_ENGINEER_PROFILE
+# @deps: None
+# @status: ACTIVE
+# @last_update: 2026-04-06
+# @summary: Perfil do PhantomEngineer - Simulacao contrafactual e alignment ghost-vs-real
+
+role_id: PhantomEngineer
+domain: Counterfactual Simulation
+expertise: [sim2real_alignment, gradient_estimation, shadow_weights, fidelity_tracking]
+input_contract:
+  required_files: [code.py, contract.md, regime_context]
+  max_context: 4
+  validation: simulation_integrity
+output_contract:
+  deliverables: [phantom_gradients.yaml, sim2real_alignment.md, dna_shadow_patch.yaml]
+  format: yaml + markdown
+context_budget: 4
+activation_triggers:
+  - post_execution_simulation
+  - calibration_cycle
+  - dna_update_needed
+decay_sensors:
+  - sim2real_alignment < 0.82
+  - gradient_divergence_detected
+  - context_overuse_2_cycles
+fallback_chain:
+  - Architect (if simulation contract unclear)
+  - Director (if alignment critically low)
+metrics:
+  sim2real_alignment_target: 0.82
+  gradient_accuracy: 0.85
+  calibration_pass_rate: 0.90
+version: v1.0

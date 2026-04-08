@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\portfolio\ftmo_multi_asset_guard.py
+# hypothesis_version: 6.151.11
+
+[0.0, 0.04, 0.08, 5.0, 'DRAWDOWN_BREACH', 'EXPOSURE_CAP', 'EXPOSURE_SAFE']

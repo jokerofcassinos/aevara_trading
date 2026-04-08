@@ -1,0 +1,48 @@
+# @module: aevara.config.exchange
+# @deps: None
+# @status: IMPLEMENTED
+# @last_update: 2026-04-06
+# @summary: Configuracao por exchange - sanitized (sem credentials).
+#           Adicionar nova exchange = config, nao code rewrite.
+
+exchanges:
+  BINANCE:
+    active: true
+    ws_url: "wss://stream.binance.com:9443/ws"
+    rest_url: "https://api.binance.com"
+    rate_limit: 1200  # requests per minute
+    symbols: ["BTCUSDT", "ETHUSDT", "SOLUSDT"]
+    max_depth: 20
+    priority: 1  # primary exchange
+    health_check_interval: 30  # seconds
+  BYBIT:
+    active: true
+    ws_url: "wss://stream.bybit.com/v5/public/linear"
+    rest_url: "https://api.bybit.com"
+    rate_limit: 120
+    symbols: ["BTCUSDT", "ETHUSDT", "SOLUSDT"]
+    max_depth: 20
+    priority: 2  # secondary
+    health_check_interval: 30
+  OKX:
+    active: false
+    ws_url: "wss://ws.okx.com:8443/ws/v5/public"
+    rest_url: "https://www.okx.com"
+    rate_limit: 20
+    symbols: ["BTC-USDT", "ETH-USDT"]
+    max_depth: 10
+    priority: 3  # tertiary
+    health_check_interval: 60
+  SIMULATED:
+    active: true
+    symbols: ["BTCUSDT", "ETHUSDT"]
+    rate_limit: 999999
+    priority: 0  # lowest priority
+    health_check_interval: 0
+
+# Failover config
+failover:
+  cooldown_seconds: 30
+  min_health_score: 0.7
+  hysteresis_window: 5  # health checks
+  max_failover_per_hour: 3

@@ -1,0 +1,94 @@
+# @module: PROJECT_STATE
+# @deps: AEVRA_DIRECTIVE.md
+# @status: ACTIVE
+# @last_update: 2026-04-06
+# @summary: Fonte unica de verdade do projeto Aevra - modulos, progresso, constraints, DNA generation
+
+metadata:
+  project: AEVRA
+  version: v1.0.0-rc8
+  state_hash: aevra_v100_rc8
+  boot_timestamp: "2026-04-06T00:00:00Z"
+  mode: ACTIVE
+  dna_generation: 2
+
+architecture:
+  ccd_version: "v2.0"
+  qroe_version: "v1.0"
+  stea_version: "v1.0"
+  invariant_count: 7
+  phi_principles: 13
+
+modules:
+  activation:
+    current_phase: DEMO
+    pilot_locked: true
+    ftmo_guard: ENFORCED
+    telemetry_active: true
+    last_gate_validation: "2026-04-07T23:52:00Z"
+    ceo_approval_required: true
+    stability_score: 1.0
+  portfolio:
+    status: COMPLETED
+    optimizer:
+      status: ACTIVE
+  meta_learning:
+    status: ACTIVE
+  deployment:
+    status: ACTIVE
+  data_sovereign:
+    status: IMPLEMENTED
+  orchestrator:
+    status: IMPLEMENTED
+  risk_engine:
+    status: IMPLEMENTED
+  telemetry_matrix:
+    status: IMPLEMENTED
+  live_gateway:
+    status: COMPLETED
+  integration:
+    status: COMPLETED
+  interfaces:
+    status: COMPLETED
+  ci_cd:
+    status: COMPLETED
+  validation:
+    status: COMPLETED
+  live_pilot:
+    status: COMPLETED
+  live_scaling:
+    status: COMPLETED
+  mt5_bridge:
+    status: COMPLETED
+  dna_evolution:
+    status: COMPLETED
+  antigravity_monitor:
+    status: PROVISIONED
+    module_id: M065
+    access_mode: LOCAL_LAN
+
+qroe_state:
+  current_phase: LIVE MONITORING
+  active_profiles: [ExecutionLead, RiskOfficer, TelemetryArchitect, PilotController]
+  rotation_cycle: 29
+  last_checkpoint: cp_029
+  context_budget_used: 5/5
+  rotation_log:
+    - ts: "2026-04-07T23:52:00Z"
+      phase_entered: LIVE MONITORING
+      reason: T-029 MT5 live deployment & activation timeline
+
+test_state:
+  total: 349
+  passed: 349
+  failed: 0
+  coverage: "core, memory, orchestrator, phantom, validation, risk, telemetry, execution, integration, interfaces, pipeline, live, scaling, mt5, portfolio, deployment, meta, multi_asset, stochastic_sizing, activation_gates"
+
+progress:
+  implemented_modules: 100
+  pending_modules: 0
+  completion_pct: 100.0
+
+
+
+

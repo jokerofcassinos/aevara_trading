@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\memory\context_library.py
+# hypothesis_version: 6.151.11
+
+[-1.0, 0.0, 1e-12, 0.3, 1.0, 2.0, 1000000000.0, 10000, 86400, 1000000000, '.', 'ContextLibrary', 'access_count', 'context_vector', 'decay_rate', 'decay_then_lru', 'default_max_age_ns', 'embedding', 'embedding must be 1D', 'embedding_dim', 'entries', 'id', 'last_accessed_ns', 'max_capacity', 'outcome_score', 'rb', 'tags', 'timestamp_ns', 'utf-8', 'wb']

@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\portfolio\portfolio_risk_guard.py
+# hypothesis_version: 6.151.11
+
+[0.0, 0.0001, 0.018, 0.038, 0.075, 0.6, 0.995, 1.0, 5.0, 100]

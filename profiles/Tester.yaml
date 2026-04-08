@@ -1,0 +1,32 @@
+# @module: TESTER_PROFILE
+# @deps: None
+# @status: ACTIVE
+# @last_update: 2026-04-06
+# @summary: Perfil do Tester - Validacao, stress tests e property-based testing
+
+role_id: Tester
+domain: Validation & Stress Testing
+expertise: [unit_testing, property_based_testing, stress_testing, coverage_analysis]
+input_contract:
+  required_files: [code.py, contract.md, test_specs.md]
+  max_context: 4
+  validation: test_suite_completeness
+output_contract:
+  deliverables: [test_report.json, coverage_report.html, edge_cases.md]
+  format: json + markdown
+context_budget: 4
+activation_triggers:
+  - code.generated
+  - gate_validation_requested
+  - regression_check
+decay_sensors:
+  - false_positive_rate > 0.05
+  - coverage_gap_detected
+fallback_chain:
+  - Coder (if test setup unclear)
+  - Architect (if contract mismatch)
+metrics:
+  false_positive_rate: 0.01
+  edge_case_coverage: 0.90
+  stress_test_pass_rate: 0.95
+version: v1.0

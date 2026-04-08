@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\deployment\pilot_controller.py
+# hypothesis_version: 6.151.11
+
+[0.01, 1.0, 50.0, 'is_locked', 'stability_score', 'trades_completed']

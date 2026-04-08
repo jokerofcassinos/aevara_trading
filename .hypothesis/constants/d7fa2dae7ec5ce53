@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\risk\risk_engine.py
+# hypothesis_version: 6.151.11
+
+[0.0, 0.3, 0.5, 0.7, 0.8, 1.0, 2.0, 3.0, 5.0, 10.0, 15.0, 100.0, 150.0, 100, ', ', 'CIRCUIT_BREAKER', 'DRAWDOWN_LIMIT', 'EXPOSURE_CAP', 'HIGH_VOLATILITY', 'LOW_CONFIDENCE', 'REGIME_HOSTILE', 'consecutive_losses', 'current_equity', 'current_vol_pct', 'drawdown_pct', 'is_circuit_open', 'peak_equity', 'vol_samples']

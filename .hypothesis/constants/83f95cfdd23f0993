@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\phantom\engine.py
+# hypothesis_version: 6.151.11
+
+[0.0, 0.15, 0.5, 0.82, 1.0, 30.0, 100, 5000, 'alignment_samples', 'calibration_counter', 'calibration_flag', 'confidence', 'long', 'max_cycles', 'side', 'size', 'threshold']

@@ -1,0 +1,32 @@
+# @module: CODER_PROFILE
+# @deps: None
+# @status: ACTIVE
+# @last_update: 2026-04-06
+# @summary: Perfil do Coder - Implementacao atomica com aderencia a contratos
+
+role_id: Coder
+domain: Atomic Implementation
+expertise: [code_generation, test_writing, pattern_adherence, optimization]
+input_contract:
+  required_files: [contract.md, test_specs.md, ARCHITECTURE_MAP.md]
+  max_context: 5
+  validation: schema_contract_compliance
+output_contract:
+  deliverables: [code.py, tests/, MODULE_SUMMARY.md, headers]
+  format: python + markdown
+context_budget: 5
+activation_triggers:
+  - contract.approved
+  - task.entering_execution_phase
+decay_sensors:
+  - context_overuse_2_cycles
+  - gate_failure_rate > 0.1
+  - test_coverage < 0.85
+fallback_chain:
+  - Architect (if contract unclear)
+  - Tester (if test-first approach needed)
+metrics:
+  gate_pass_rate: 0.95
+  test_coverage_min: 0.85
+  lines_per_cycle: 200
+version: v1.0

@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\phantom\scenario_generator.py
+# hypothesis_version: 6.151.11
+
+[-1.0, 0.5, 1.0, 1.5, 3.0, 10.0, 20.0, 30000.0, 70000.0, 'choppy', 'crisis', 'depth_imbalance', 'empirical', 'gamma', 'linear', 'mid_price', 'normal', 'power_law', 'spread_bps', 'trending', 'trending_down', 'trending_up']

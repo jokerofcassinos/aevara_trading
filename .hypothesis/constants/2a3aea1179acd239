@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\interfaces\ocl_parser.py
+# hypothesis_version: 6.151.11
+
+[0.2, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, '(\\d+(\\.\\d+)?)%', 'PAUSE', 'QUERY', 'RESUME', 'THRESHOLD_UPDATE', 'UNKNOWN', 'completeness', 'emotional', 'expertise', 'impact', 'literal', 'size', 'size\\s+([\\d.]+)', 'strategic', 'urgency', 'value_pct']

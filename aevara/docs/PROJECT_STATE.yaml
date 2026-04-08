@@ -1,0 +1,55 @@
+# @module: aevara.docs.PROJECT_STATE
+# @status: AUTO_UPDATED
+# @last_update: 2026-04-07T02:00:00Z
+
+github_sync:
+  status: ready
+  last_ts: null
+  remote_url: https://github.com/jokerofcassinos/aevara_trading.git
+  last_commit: null
+  last_files_count: 0
+  last_error: null
+
+modules:
+  core: completed
+  orchestrator: completed
+  dna: completed
+  memory: completed
+  phantom: completed
+  risk: completed
+  validation: completed
+  telemetry: completed
+  infra: completed
+  execution: completed
+  interfaces: completed
+  paper_trading: completed
+
+test_summary:
+  total: 562
+  passed: 562
+  failed: 0
+
+live_gateway:
+  status: COMPLETED
+  execution_mode: dry-run
+  ftmo_constraints:
+    daily_limit_pct: 4.8
+    total_limit_pct: 8.0
+    min_trading_days: 1
+  last_reconciliation_ns: 0
+  killswitch_status: armed
+
+tasks_completed:
+  - T-001: Coherence Engine
+  - T-003: QROE Orchestrator
+  - T-004: Phantom Engine
+  - T-007: ZeroTrust Ops
+  - T-008: Risk Engine
+  - T-009: Adversarial Forge
+  - T-010: ValidationForge
+  - T-011: Execution Engine + SOR
+  - T-013: GitHub Sync Orchestrator
+  - T-014: Paper Trading Modules
+  - T-014.5: Paper Trading Integration & Validation
+  - T-015: Telegram Interface & CEO Dashboard
+  - T-016: Live Execution Gateway

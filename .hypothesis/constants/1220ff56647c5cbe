@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\infra\stress\market_adversary.py
+# hypothesis_version: 6.151.11
+
+[-1.0, 0.0, 0.01, 0.1, 0.15, 0.25, 0.3, 0.5, 0.6, 0.75, 0.8, 0.85, 1.0, 1.5, 2.0, 2.5, 3.0, 5.0, 10.0, 30.0, 100.0, 120.0, 300.0, 1000.0, 50000.0, 100, 500, 1000, 5000, 'BOTTOM', 'BTC/USD', 'BUY', 'CRASH', 'DOWN', 'EXCHANGE_DOWNTIME', 'FLASH_CRASH', 'GAPPING', 'LATENCY_SPIKE', 'RECOVERY', 'SELL', 'SPOOFING', 'UP', 'VOL_CLUSTERING', 'base_latency_ms', 'base_price', 'cancel_rate', 'data_gap', 'direction', 'distance_bps', 'distribution', 'drop_pct', 'gamma', 'gamma_k', 'gamma_theta', 'gap_pct', 'gap_price', 'layer', 'mean_reversion', 'peak_latency_ms', 'phase', 'recovery_target', 'rest_timeouts', 'spoof_size', 'symbol', 'vol_multiplier', 'ws_disconnected']

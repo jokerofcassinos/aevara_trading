@@ -1,0 +1,82 @@
+# @module: aevara.config.dna_bounds
+# @deps: None
+# @status: IMPLEMENTED
+# @last_update: 2026-04-06
+# @summary: DNA bounds institucionais - limites minimos/maximos de todos
+#           os parametros mutaveis do sistema. Nenhum parametro pode exceder
+#           estes limites sem aprovacao manual do CEO.
+
+# === FUSION BOUNDS ===
+fusion:
+  L_max:
+    min: 2.0
+    max: 8.0
+    current: 4.5
+  prior_logodds:
+    min: -1.0
+    max: 1.0
+    current: 0.0
+
+# === DNA BOUNDS ===
+dna:
+  learning_rate:
+    min: 0.001
+    max: 0.10
+    current: 0.02
+  min_weight:
+    min: 0.001
+    max: 0.10
+    current: 0.01
+  max_weight:
+    min: 0.50
+    max: 0.99
+    current: 0.95
+
+# === PROMOTION GATE BOUNDS ===
+promotion:
+  min_window_size:
+    min: 20
+    max: 200
+    current: 50
+  min_alignment:
+    min: 0.70
+    max: 0.95
+    current: 0.82
+  min_sharpe_improvement:
+    min: 0.0
+    max: 0.50
+    current: 0.10
+
+# === RISK BOUNDS ===
+risk:
+  max_drawdown_pct:
+    min: 2.0
+    max: 5.0
+    current: 4.8
+  max_volatility:
+    min: 0.01
+    max: 0.10
+    current: 0.05
+  min_coherence_confidence:
+    min: 0.05
+    max: 0.50
+    current: 0.15
+
+# === REGIME BOUNDS ===
+regime:
+  short_window:
+    min: 5
+    max: 30
+    current: 10
+  long_window:
+    min: 30
+    max: 200
+    current: 50
+  volatility_threshold:
+    min: 0.005
+    max: 0.05
+    current: 0.02
+  crisis_threshold:
+    min: 0.02
+    max: 0.10
+    current: 0.05

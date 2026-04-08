@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\meta\post_trade_analyzer.py
+# hypothesis_version: 6.151.11
+
+[-0.5, 0.0, 0.5, 0.8, 0.85, 0.9, 1.0, 2.0, 1000, 'ADJUST_MAX_SLIPPAGE', 'LOG_ONLY', 'OK', 'REGIME_SKEW', 'SLIPPAGE_DRAG', 'UNKNOWN', 'action', 'alpha', 'bias', 'confidence', 'correlation', 'cost', 'data', 'decay', 'delta', 'drawdown', 'execution', 'logic', 'regime', 'regime_drift', 'risk', 'signal', 'slippage_bps', 'speed', 'status', 'trade_id']

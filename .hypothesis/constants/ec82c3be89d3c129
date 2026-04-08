@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\validation\reporter.py
+# hypothesis_version: 6.151.11
+
+[0.0, 0.1, 0.5, 0.95, 1.0, 100, 1000, '  Notes:', '  Regime Breakdown:', 'INVALID', 'VALID', 'deflated_sharpe', 'high', 'is_valid', 'low', 'max_drawdown', 'mean', 'min_backtest_length', 'n_cpcv_folds', 'n_walk_forward_steps', 'raw_sharpe', 'regime_breakdown', 'validation_notes', 'walk_forward_sharpe', 'win_rate']

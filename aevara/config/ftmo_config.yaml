@@ -1,0 +1,28 @@
+# @module: aevara.config.ftmo_config
+# @deps: None
+# @status: IMPLEMENTED
+# @last_update: 2026-04-10
+# @summary: FTMO Challenge Configuration: Immutable Rule thresholds, Profit targets, and Buffers.
+
+ftmo_challenge:
+  account:
+    initial_balance: 100000.0
+    leverage: 1:100
+    account_id: "CHALLENGE_123"
+  
+  limits_real:
+    daily_drawdown_pct: 5.0
+    total_drawdown_pct: 10.0
+    profit_target_pct: 8.0
+    min_trading_days: 4
+  
+  limits_bot_buffer:
+    daily_drawdown_pct: 4.0      # Hard Halt buffer
+    total_drawdown_pct: 8.0      # Hard Halt buffer
+    max_risk_per_trade_pct: 1.0  # Max exposure limit
+    max_lots_portfolio: 5.0      # Total lots cap
+  
+  monitoring:
+    reconciliation_interval_s: 3
+    dashboard_update_s: 10
+    emergency_freeze_mode: TRUE  # Enable automatic position flattening on violation

@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\live\ftmo_guard.py
+# hypothesis_version: 6.151.11
+
+[0.04, 0.08, 'COMPLIANT', 'DAILY_LOSS', 'TOTAL_LOSS', 'current_equity', 'current_pnl']

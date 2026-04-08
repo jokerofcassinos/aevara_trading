@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\execution\lifecycle.py
+# hypothesis_version: 6.151.11
+
+[0.0, 'ACKNOWLEDGED', 'BUY', 'CANCELLED', 'CREATED', 'EXPIRED', 'FILLED', 'FOK', 'IOC', 'LIMIT', 'MARKET', 'No change', 'Order expired (TTL)', 'PARTIAL_FILL', 'POST_ONLY', 'REJECTED', 'Rejected by venue', 'SELL', 'SUBMITTED', 'Submitted to venue', 'User cancelled', 'Venue acknowledged', 'avg_fill_price', 'filled_qty', 'is_terminal', 'n_transitions', 'order_id', 'side', 'state', 'symbol', 'time', 'venue']

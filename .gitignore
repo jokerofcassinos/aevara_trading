@@ -1,0 +1,22 @@
+# Aevra .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+.env
+
+# Aevra Data & Logs (Security First)
+aevara/logs/
+aevara/state/
+aevara/config/secrets.yaml
+aevara/config/mt5_config.yaml
+
+# System files
+.vscode/
+.idea/
+.DS_Store
+*.tmp
+*.log

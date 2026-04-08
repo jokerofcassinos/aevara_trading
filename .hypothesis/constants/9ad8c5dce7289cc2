@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\risk\position_sizing.py
+# hypothesis_version: 6.151.11
+
+[0.0, 0.1, 0.25, 0.5, 1.0, 2.0, 3.0, 15.0, 100.0, 'cvar_floor_pct', 'kelly_fraction', 'max_leverage', 'max_position_pct', 'min_position_pct', 'vol_target_pct']

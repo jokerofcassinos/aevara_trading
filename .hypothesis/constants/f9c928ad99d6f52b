@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\phantom\execution_simulator.py
+# hypothesis_version: 6.151.11
+
+[-0.8, -0.5, -0.3, -0.1, 0.0, 0.005, 0.01, 0.1, 0.2, 0.3, 0.5, 1.0, 2.0, 5000.0, 10000, 30000, 50000, 'choppy', 'confidence', 'crisis', 'depth_imbalance', 'gamma', 'linear', 'long', 'momentum_weight', 'normal', 'power_law', 'regime_weight', 'side', 'size', 'spread_bps', 'trending_down', 'trending_up', 'volatility_weight']

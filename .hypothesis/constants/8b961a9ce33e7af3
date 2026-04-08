@@ -1,0 +1,4 @@
+# file: D:\Nova pasta\aevara\src\integration\e2e_orchestrator.py
+# hypothesis_version: 6.151.11
+
+[0.0, 0.01, 1.0, 5.0, 1000000.0, 30000000000.0, 'BLOCKED', 'BUY', 'CHAOS', 'CRITICAL', 'CYCLE_COMPLETE', 'EXECUTED', 'EXECUTION', 'LIMIT', 'SYS', 'coherence', 'current_volatility', 'cycle_count', 'daily_pnl_pct', 'data_handover', 'execution', 'execution_mode', 'failures', 'fault', 'latency_status', 'margin_available', 'market_ts_ns', 'msg', 'phase', 'qroe_decision', 'qroe_phase', 'receipt', 'reconciliation', 'risk_gate', 'side', 'size', 'status', 'sync_status', 'telemetry', 'total_exposure_qty', 'trace_id', 'trace_ids']

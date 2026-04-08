@@ -1,0 +1,27 @@
+# @module: aevara.config.risk_params
+# @deps: aevara.config.dna_bounds
+# @status: IMPLEMENTED
+# @last_update: 2026-04-06
+# @summary: Parametros de risco - todos mutaveis via DNA, bounded por dna_bounds.yaml
+
+risk:
+  # Position sizing
+  base_size_pct: 2.0        # % do capital por trade base
+  max_size_pct: 5.0         # Maximum position size
+  conviction_multiplier: 5.0 # Escala de conviccao do sinal
+
+  # Risk gates
+  max_drawdown_pct: 4.8     # Hard stop (FTMO limit)
+  daily_loss_limit_pct: 2.0  # Stop daily
+  max_volatility: 0.05      # Vol extrema
+
+  # Circuit breakers
+  max_trades_per_hour: 10   # Frenquencia maxima
+  min_cooldown_seconds: 5    # Between trades
+  emergency_flatten: true    # Close all on CRITICAL
+
+# Capital management
+capital:
+  initial: 10000.0          # USD
+  currency: "USD"
+  max_leverage: 1.0          # No leverage (spot only)
